@@ -2,64 +2,72 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link rel="stylesheet" href="yatara.css">
     <title>Githubフロント</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="logo"><img src="./" align="left"></div>
-          <input type="text" name="" value="">
-          <ul class="header">
-            <li><a href="#">pull requests</a></li>
-            <li><a href="#">Issues</a></li>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Explore</a></li>
-          </ul>
-      </nav>
-    </header>
-    <aside class="profile">
-      <div class="profile_image"><img src=".git/IMG_3475.jpg" width="190％" height="190％"></div>
-      <h2>Yu kimura</h2>
-        <p>pandabucks</p>
-    </aside>
-    <article class="index">
-      <div class="tab">
-        <ul class="js">
-          <li class="select">Overview</li>
-          <li>Repositories</li>
-          <li>Stars</li>
-          <li>Followers</li>
-          <li>Following</li>
-        </ul>
-      </div>
-    <section class="Overview">
-      <div class="content">
-        <h2 class="index_name">popular repositories<p class="custam">Customize your pinned repositories</p></h2>
-        <div class="main clearfix wrapper">
-          <div class="box1">aaaa</div>
-          <div class="box2">bbbb</div>
-          <div class="box3">cccc</div>
-          <div class="box4">dddd</div>
-          <div class="box5">eeee</div>
-          <div class="box6">ffff</div>
+      <div class="header-wrapper clearfix">
+        <div class="logo">
+          <img src="assets/images/GitHub-Mark.png" alt="">
         </div>
+        <nav class="header-nav clearfix">
+            <input class="search_box" type="text" name="" value="">
+            <ul class="header_nav_list">
+              <li><a href="#">pull requests</a></li>
+              <li><a href="#">Issues</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Explore</a></li>
+            </ul>
+        </nav>
       </div>
-      </section>
-      <section class="hoge hide clearfix wrapper">
-        <div>hogehogehoge</div>
-      </section>
-      <section class="hoge hide clearfix wrapper">
-        <div>hagehage</div>
-      </section>
-      <section class="hoge hide clearfix wrapper">
-        <div>pi-----</div>
-      </section>
-      <section class="hoge hide clearfix wrapper">
-        <div>ge</div>
-      </section>
-    </article>
+    </header>
+    <div class="content-wrapper">
+      <aside class="profile">
+        <div class="profile_image"><img src="assets/images/IMG_3475.jpg" width="190％" height="190％" class="border_radius"></div>
+        <div class="name">
+          <h3>Yu kimura</h3>
+            <p>pandabucks</p>
+        </div>
+      </aside>
+      <article class="index">
+        <div class="tab">
+          <ul>
+            <li class="select check">Overview</li>
+            <li class="check">Repositories</li>
+            <li class="check">Stars</li>
+            <li class="check">Followers</li>
+            <li class="check">Following</li>
+          </ul>
+        </div>
+      <section class="Overview">
+        <div class="content">
+          <div class="index_name">popular repositories<p class="custam">Customize your pinned repositories</p></div>
+          <div class="main clearfix wrapper">
+            <div class="repositorie-box">aaaa</div>
+            <div class="repositorie-box">bbbb</div>
+            <div class="repositorie-box">cccc</div>
+            <div class="repositorie-box">dddd</div>
+            <div class="repositorie-box">eeee</div>
+            <div class="repositorie-box">ffff</div>
+          </div>
+        </div>
+        </section>
+        <section class="hoge hide clearfix wrapper">
+          <div>hogehogehoge</div>
+        </section>
+        <section class="hoge hide clearfix wrapper">
+          <div>hagehage</div>
+        </section>
+        <section class="hoge hide clearfix wrapper">
+          <div>pi-----</div>
+        </section>
+        <section class="hoge hide clearfix wrapper">
+          <div>ge</div>
+        </section>
+      </article>
+    </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="yatara.js">
   </script>
